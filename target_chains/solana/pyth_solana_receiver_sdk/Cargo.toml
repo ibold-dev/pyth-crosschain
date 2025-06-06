@@ -19,4 +19,4 @@ bytemuck_derive = "<=1.23.0" # After this version, MSRV 1.84 is required.
 pythnet-sdk = { path = "../../../pythnet/pythnet_sdk", version = "2.1.0", features = [
     "solana-program",
 ] }
-solana-program = ">=1.16.0, <2.2.1"
+solana-program = "1.18.26"
